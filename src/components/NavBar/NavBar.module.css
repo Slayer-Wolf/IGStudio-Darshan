@@ -1,0 +1,48 @@
+.container {
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  margin: 3rem 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+.logo .logoText {
+  font-weight: 600;
+  color: white;
+  font-size: 0.85rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menu .menuText {
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.button {
+  border: 2px solid white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+.menu .menuText:hover,
+.button:hover {
+  cursor: pointer;
+  background-color: var(--color-gray);
+}
